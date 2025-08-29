@@ -1,0 +1,41 @@
+2025-08-20 21:57:02,313 - __main__ - INFO - <module>:218 - Starting Crop Disease Detection App on port 5000
+2025-08-20 21:57:02,313 - __main__ - INFO - <module>:219 - Debug mode: False
+2025-08-20 21:57:02,340 - werkzeug - INFO - _log:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.247:5000
+2025-08-20 21:57:02,340 - werkzeug - INFO - _log:97 - [33mPress CTRL+C to quit[0m
+2025-08-20 21:57:06,324 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 21:57:06] "GET / HTTP/1.1" 200 -
+2025-08-20 21:57:06,606 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 21:57:06] "[36mGET /static/images/4.jpg HTTP/1.1[0m" 304 -
+2025-08-20 21:57:06,613 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 21:57:06] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:57:06,722 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 21:57:06] "[36mGET /static/images/bg8.jpg HTTP/1.1[0m" 304 -
+2025-08-20 21:57:06,862 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 21:57:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-20 21:57:18,524 - __main__ - INFO - predict:99 - Processing image: 00e909aa-e3ae-4558-9961-336bb0f35db3___JR_FrgE.S_8593.JPG (ID: 05819389)
+2025-08-20 21:57:18,524 - model - ERROR - predict_image:287 - Prediction error: 'NoneType' object has no attribute 'preprocess_image'
+2025-08-20 21:57:18,524 - __main__ - ERROR - predict:105 - Prediction failed: Prediction failed: 'NoneType' object has no attribute 'preprocess_image'
+2025-08-20 21:57:18,527 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 21:57:18] "POST /predict HTTP/1.1" 200 -
+2025-08-20 21:57:18,538 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 21:57:18] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:57:18,541 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 21:57:18] "[36mGET /static/images/4.jpg HTTP/1.1[0m" 304 -
+2025-08-20 22:08:23,095 - __main__ - INFO - <module>:218 - Starting Crop Disease Detection App on port 5000
+2025-08-20 22:08:23,095 - __main__ - INFO - <module>:219 - Debug mode: False
+2025-08-20 22:08:23,122 - werkzeug - INFO - _log:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.247:5000
+2025-08-20 22:08:23,122 - werkzeug - INFO - _log:97 - [33mPress CTRL+C to quit[0m
+2025-08-20 22:08:26,396 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 22:08:26] "GET / HTTP/1.1" 200 -
+2025-08-20 22:08:26,538 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 22:08:26] "[36mGET /static/images/4.jpg HTTP/1.1[0m" 304 -
+2025-08-20 22:08:26,549 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 22:08:26] "GET /static/styles/style.css HTTP/1.1" 200 -
+2025-08-20 22:08:26,566 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 22:08:26] "[36mGET /static/images/bg8.jpg HTTP/1.1[0m" 304 -
+2025-08-20 22:08:42,073 - __main__ - INFO - predict:99 - Processing image: 00e909aa-e3ae-4558-9961-336bb0f35db3___JR_FrgE.S_8593.JPG (ID: fb094f6d)
+2025-08-20 22:08:42,073 - model - ERROR - predict_image:287 - Prediction error: 'NoneType' object has no attribute 'preprocess_image'
+2025-08-20 22:08:42,073 - __main__ - ERROR - predict:105 - Prediction failed: Prediction failed: 'NoneType' object has no attribute 'preprocess_image'
+2025-08-20 22:08:42,073 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 22:08:42] "POST /predict HTTP/1.1" 200 -
+2025-08-20 22:08:42,088 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 22:08:42] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-08-20 22:08:42,088 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 22:08:42] "[36mGET /static/images/4.jpg HTTP/1.1[0m" 304 -
+2025-08-20 22:09:21,526 - __main__ - INFO - predict:99 - Processing image: 0c8432e0-0484-470c-a774-7cce596b9e64___JR_FrgE.S_2841.JPG (ID: 731c2966)
+2025-08-20 22:09:21,527 - model - ERROR - predict_image:287 - Prediction error: 'NoneType' object has no attribute 'preprocess_image'
+2025-08-20 22:09:21,527 - __main__ - ERROR - predict:105 - Prediction failed: Prediction failed: 'NoneType' object has no attribute 'preprocess_image'
+2025-08-20 22:09:21,527 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 22:09:21] "POST /predict HTTP/1.1" 200 -
+2025-08-20 22:09:21,537 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 22:09:21] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-08-20 22:09:21,539 - werkzeug - INFO - _log:97 - 192.168.31.247 - - [20/Aug/2025 22:09:21] "[36mGET /static/images/4.jpg HTTP/1.1[0m" 304 -
